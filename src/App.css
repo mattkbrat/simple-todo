@@ -16,6 +16,7 @@
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
+  min-width:100vw;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -26,6 +27,33 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.Task {
+  width:95vw;
+  gap: 5px;
+  background-color: black;
+  outline: 5px #61dafb;
+}
+
+.Task-buttons {
+  display: flex;
+  column-gap: 5px;
+  width: 100%;
+  justify-content: center;
+  vertical-align: center;
+  align-items: center;
+}
+
+.Task-button {
+  display: block;
+  width: calc(100% - 20px); /*20px [ left & Right ] padding + 4px border [ left & Right ] */
+  font-size: inherit;
+  font-weight: 599;
+  color: #61dafb;
+  padding: 10px;
+  border: 2px solid #3b4048;
+  background: #181a1b;
 }
 
 @keyframes App-logo-spin {
