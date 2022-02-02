@@ -1,3 +1,46 @@
+---
+Matthew Bratrsovsky
+2 Feb 2022 17:12
+BACS495-027
+---
+# 5.4 TODO React App
+
+## Features
+- Add new task
+- Click on task to mark it complete 
+
+## Elements
+Task
+- Textbox
+- Buttons
+	- Create new task
+		- Delete
+		- Add
+	- Edit existing task
+		- Complete
+		- Delete
+List
+- Tasks
+
+### Instructions
+
+This week you will create a React app for practice. This is NOT your final project but is intended to just be a practice run as some concepts.  Here are the features of the app you will create:
+
+-   Basic TODO list functionality
+	- Add new task
+	- Click on task to mark it complete
+-   Here are the elements needed
+    -   Textbox to enter new task
+    -   Button to add task to list
+    -   List with elements that you can click on to mark completed
+-   Clean style with CSS
+
+There is no database backend. This app should be 100% in the browser and should not refresh the screen or submit to any server.  It's purely an in-browser app.  
+
+When done, check this into your repo for Course Work (**NOT** YOUR FINAL PROJECT REPO). When you are ready, submit the URL and commit hash you want me to look at as well as the name of the folder your todo project is in when I do a pull. 
+
+---
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
